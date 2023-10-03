@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Safari.Com</title>
+</head>
+<body>
+    <!------  Main menu   ------>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="./images/logo.png" alt="site logo"> -->
+                <h1 class="logo-text">Safari.<Span>Com</Span></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <a class="level-nav-link nav-link active" aria-current="page" href="#search-form">Search</a>
+                <a class="level-nav-link nav-link" href="#services">Services</a>
+                <a class="level-nav-link nav-link" href="#recommends">Recommends</a>
+                <a class="level-nav-link nav-link" href="#contact">Contact Us</a>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-----------  Search form  ------------->
+    <div id="search-form" class="hero">
+        <div class="container">
+            <form action="index.html" method="get" class="search-form">
+                <div class="form-group" style="flex: 100%;">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" name="city" placeholder="City" class="form-control">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input id="inputCheckin" type="text" placeholder="Check in" class="form-control">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input id="inputCheckout" type="text" placeholder="Check out" class="form-control">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select class="form-control">
+                        <option value="">Rooms</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">Childrens</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Check</button>
+                </div>
+            </form>
+
+            <p class="need-help">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, similique!
+                <a href="#"> Need Help?</a>
+            </p>
+        </div>
+    </div>
+
+    <!-------------  Subscribe  ----------------->
+    <section class="section-color">
+        <div class="container text-center">
+            <h2 class="section-title">We are here to help you!</h2>
+            <p class="section-subtitle">Subscribe to get our news</p>
+            <a href="#" class="btn btn-white">Subscribe Newletters</a>
+        </div>
+    </section>
+
+
+    <!-------------  Services  ----------------->
+    <section id="services">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="section-down-arrow">
+            <polygon fill="var(--primary-color)" points="0,0 100,0 50,50" ></polygon>
+        </svg>
+
+        <div class="container">
+            <div class="row">
+                <article class="article col-lg-4">
+                    <i class="fa fa-hotel article-icon"></i>
+                    <h3 class="article-title">Hotel Registing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis quam aperiam cumque illum vero.</p>
+                    <a href="#" class="btn btn-primary btn-fit">Read More</a>
+                </article>
+                <article class="article col-lg-4">
+                    <i class="fa fa-plane article-icon"></i>
+                    <h3 class="article-title">Plan Tekit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis quam aperiam cumque illum vero.</p>
+                    <a href="#" class="btn btn-primary btn-fit">Read More</a>
+                </article>
+                <article class="article col-lg-4">
+                    <i class="fa fa-car article-icon"></i>
+                    <h3 class="article-title">Car Registing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis quam aperiam cumque illum vero.</p>
+                    <a href="#" class="btn btn-primary btn-fit">Read More</a>
+                </article>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-------------  Slider  ----------------->
+    <section id="recommends" class="section-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                <div class="level-slider">
+                    <article class="level-slider-item">
+                        <img src="./images/img-01.jpg" alt="">
+                        <div class="level-slider-item-container">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dicta.</p>
+                            <a href="" class="btn btn-primary btn-fit">Details</a>
+                        </div>
+                    </article>
+                    <article class="level-slider-item">
+                        <img src="./images/img-02.jpg" alt="">
+                        <div class="level-slider-item-container">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dicta.</p>
+                            <a href="" class="btn btn-primary btn-fit">Get More Info</a>
+                        </div>
+                    </article>
+                    <article class="level-slider-item">
+                        <img src="./images/img-01.jpg" alt="">
+                        <div class="level-slider-item-container">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dicta.</p>
+                            <a href="" class="btn btn-primary btn-fit">View Details</a>
+                        </div>
+                    </article>
+                    <article class="level-slider-item">
+                        <img src="./images/img-02.jpg" alt="">
+                        <div class="level-slider-item-container">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dicta.</p>
+                            <a href="" class="btn btn-primary btn-fit">Learn More</a>
+                        </div>
+                    </article>
+                    <article class="level-slider-item">
+                        <img src="./images/img-01.jpg" alt="">
+                        <div class="level-slider-item-container">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dicta.</p>
+                            <a href="" class="btn btn-primary btn-fit">Get Info</a>
+                        </div>
+                    </article>
+                    <article class="level-slider-item">
+                        <img src="./images/img-02.jpg" alt="">
+                        <div class="level-slider-item-container">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dicta.</p>
+                            <a href="" class="btn btn-primary btn-fit">More Info</a>
+                        </div>
+                    </article>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="star-places">
+                        <div class="star-places-header">
+                            <h3>Star Places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                        <div class="star-places-body">
+                            <a href="">
+                                <img src="./images/tn-img-01.jpg" alt="">
+                                <h4>Europe</h4>
+                            </a>
+                            <a href="">
+                                <img src="./images/tn-img-02.jpg" alt="">
+                                <h4>Asia</h4>
+                            </a>
+                            <a href="">
+                                <img src="./images/tn-img-03.jpg" alt="">
+                                <h4>Africa</h4>
+                            </a>
+                            <a href="">
+                                <img src="./images/tn-img-04.jpg" alt="">
+                                <h4>America</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------    VEDIO    --------->
+    <section class="video">
+        <div class="video-overlay">
+            <i class="fa fa-play-circle video-control-play"></i>
+            <i class="fa fa-pause-circle video-control-pause"></i>
+        </div>
+        <div class="video-container">
+            <video class="level-video">
+                <source  src="./videos/video3.mp4" type="video/mp4">
+                <source  src="./videos/video3.ogg" type="video/ogg">
+                Your browser doesn't support the video tag.
+            </video>
+        </div>
+    </section>
+
+
+    <!-------   CONTACT   --------->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27832.212898414105!2d30.82168688815589!3d29.310895019241194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1459792fa8bf0013%3A0xa698b3d528236f63!2sFaiyum%2C%20Qesm%20Al%20Fayoum%2C%20Faiyum%2C%20Faiyum%20Governorate!5e0!3m2!1sen!2seg!4v1684293415927!5m2!1sen!2seg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Name" required>
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="" id="" class="form-control" placeholder="Email" required>
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" placeholder="Subject" required>
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" name="" id="" class="form-control" placeholder="Message" rows="9" required></textarea>
+                            <i class="fa fa-commenting"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------- FOOTER --------------->
+    <footer class="footer">
+        <div class="container">
+            <p>CopyRight &copy; 2023 LEVEL - Designed by:
+                <a rel="nofollow" href="#">Ahmed El-Faioumy</a>
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
